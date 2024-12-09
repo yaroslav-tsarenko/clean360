@@ -11,6 +11,7 @@
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
     <script src="ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
     <script src="js/script.js"></script>
+    <script src="js/phoneValidation.js"></script>
     <script type="text/javascript">WebFont.load({google: {families: ["Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"]}});</script>
     <script type="text/javascript">!function (o, c) {
         var n = c.documentElement, t = " w-mod-";
@@ -572,14 +573,13 @@
                   redirect="https://clean360.webflow.io" data-redirect="https://clean360.webflow.io"
                   action="https://webflow-bot-backend.onrender.com/webflow-form" method="post" class="form"
                   data-wf-page-id="674a2ea3a249d5093eb51b8a" data-wf-element-id="800181b7-d04e-21b9-2eef-6a7429fbc503"
-                  data-turnstile-sitekey="0x4AAAAAAAQTptj2So4dx43e"><input class="text-field w-input" maxlength="256"
-                                                                           name="name-2" data-name="name-2"
-                                                                           placeholder="Ваше імʼя" type="text"
-                                                                           id="name-3" required=""><input
-                    class="text-field-2 w-input" autofocus="true" maxlength="256" name="PhoneNumber-3"
-                    data-name="PhoneNumber-3" placeholder="Ваш номер телефону" type="tel" id="PhoneNumber-4"
-                    required=""><input type="submit" data-wait="Please wait..." class="submit-button w-button"
-                                       value="Відправити"></form>
+                  data-turnstile-sitekey="0x4AAAAAAAQTptj2So4dx43e">
+                <input class="text-field w-input" maxlength="256" name="name-2" data-name="name-2"
+                       placeholder="Ваше імʼя" type="text" id="name-3" required="">
+                <input class="text-field-2 w-input" autofocus="true" maxlength="256" name="PhoneNumber-3"
+                       data-name="PhoneNumber-3" placeholder="Ваш номер телефону" type="tel" required="">
+                <input type="submit" data-wait="Please wait..." class="submit-button w-button" value="Відправити">
+            </form>
             <div class="success-message w-form-done">
                 <div class="text-block-5">Дякую! Ваші дані було отримано!</div>
             </div>
