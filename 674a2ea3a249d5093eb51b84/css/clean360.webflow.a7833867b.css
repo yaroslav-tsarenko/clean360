@@ -5227,9 +5227,9 @@ textarea.w-input, textarea.w-select {
     }
 
     .team-block {
-        height: auto;
         margin-left: 10px;
         margin-right: 10px;
+        height: 302px;
     }
 
     .team-slider-arrow {
