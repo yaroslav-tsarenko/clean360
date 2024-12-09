@@ -1,0 +1,224 @@
+Uri: https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js
+File Name: D:\Projects\webflow\clean360.webflow.io\ajax\libs\webfont\1.6.26\webfont.js
+Content Type: text/javascript
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/674a300251d49527d061435b_clean360bg.png
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\674a300251d49527d061435b_clean360bg.png
+Content Type: image/png
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/674a3319160bab85be804604_fb-icon.svg
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\674a3319160bab85be804604_fb-icon.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/674a33198cfb51e204d8189f_inst-icon.svg
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\674a33198cfb51e204d8189f_inst-icon.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/674a3319d69cc78b6a830e7f_tg-icon.svg
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\674a3319d69cc78b6a830e7f_tg-icon.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/674b886688eef832c4065ded_discount.svg
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\674b886688eef832c4065ded_discount.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/674b8a3cc29e9c0c2568d1a2_users.svg
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\674b8a3cc29e9c0c2568d1a2_users.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/674c58872137a2a75e8d980a_checkmark-icon.svg
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\674c58872137a2a75e8d980a_checkmark-icon.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/674c58873fdbcae5031e6b75_clock-icon.svg
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\674c58873fdbcae5031e6b75_clock-icon.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/674c588789ef36fc130e94d6_checkbox-icon.svg
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\674c588789ef36fc130e94d6_checkbox-icon.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/674c62a72ef3a7c2916b0928_glass-4.svg
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\674c62a72ef3a7c2916b0928_glass-4.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/674c62a789ef36fc13151433_glass-2.svg
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\674c62a789ef36fc13151433_glass-2.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/674c62a7d37ddf9874bf36aa_glass-3.svg
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\674c62a7d37ddf9874bf36aa_glass-3.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/674c6477286577567810cb20_glass-1rotated.svg
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\674c6477286577567810cb20_glass-1rotated.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/674dedf7bb3eded828de2a48_bg-6.svg
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\674dedf7bb3eded828de2a48_bg-6.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/674df62fd71a017d4fbd8de7_img%2Bglass-p-1080.png
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\674df62fd71a017d4fbd8de7_img+glass-p-1080.png
+Content Type: image/png
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/674df62fd71a017d4fbd8de7_img%2Bglass-p-500.png
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\674df62fd71a017d4fbd8de7_img+glass-p-500.png
+Content Type: image/png
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/674df62fd71a017d4fbd8de7_img%2Bglass-p-800.png
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\674df62fd71a017d4fbd8de7_img+glass-p-800.png
+Content Type: image/png
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/674df62fd71a017d4fbd8de7_img%2Bglass.png
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\674df62fd71a017d4fbd8de7_img+glass.png
+Content Type: image/png
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/674e10a0a0863d6e7f3b2c50_andriy-kostenko.svg
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\674e10a0a0863d6e7f3b2c50_andriy-kostenko.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/674e10b4f36c39102f68a4c7_stars.svg
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\674e10b4f36c39102f68a4c7_stars.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/674e130e293c6319d8c2ab78_gb.svg
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\674e130e293c6319d8c2ab78_gb.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/674e130e881890c752d9273c_tg.svg
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\674e130e881890c752d9273c_tg.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/674e130e8afb539b9a625950_inst.svg
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\674e130e8afb539b9a625950_inst.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/674e15ddd909b2c793896025_arrow.svg
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\674e15ddd909b2c793896025_arrow.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/67517c271f631f1f00eb9548_burger-menu.svg
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\67517c271f631f1f00eb9548_burger-menu.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/6752c63a30f3eff227156481_closeIcon.svg
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\6752c63a30f3eff227156481_closeIcon.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/6752cfe3e8a845e1db93c215_main-bg-mobile-p-500.png
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\6752cfe3e8a845e1db93c215_main-bg-mobile-p-500.png
+Content Type: image/png
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/6752cfe3e8a845e1db93c215_main-bg-mobile.png
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\6752cfe3e8a845e1db93c215_main-bg-mobile.png
+Content Type: image/png
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/6752d0df1ee6f659500b18d6_our-team-mobile2.png
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\6752d0df1ee6f659500b18d6_our-team-mobile2.png
+Content Type: image/png
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/6753158b620ccef859c79e4c_Ellipse 31.svg
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\6753158b620ccef859c79e4c_Ellipse 31.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/6753432b0908e2ac0f89620b_liza-voyt.svg
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\6753432b0908e2ac0f89620b_liza-voyt.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/6753432b55b7d752aa57afc7_nastia-potapenko.svg
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\6753432b55b7d752aa57afc7_nastia-potapenko.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/6753432b578a07db53335209_4-stars.svg
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\6753432b578a07db53335209_4-stars.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/6753432b7bcf77cbc5cb60b5_ilona-ovdienko.svg
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\6753432b7bcf77cbc5cb60b5_ilona-ovdienko.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/6753432b9dff82160213ecec_mykola-savchenko.svg
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\6753432b9dff82160213ecec_mykola-savchenko.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/67536313eace6b69a6e4ceaf_ourt-ream.png
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\67536313eace6b69a6e4ceaf_ourt-ream.png
+Content Type: image/png
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/67536ba442141c086c0cd505_scrollable.svg
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\67536ba442141c086c0cd505_scrollable.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/67536ba53bd8b431c5856574_phone-icon.svg
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\67536ba53bd8b431c5856574_phone-icon.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/6753794808947f4f671a0ffd_bg-mobiletarifs.png
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\6753794808947f4f671a0ffd_bg-mobiletarifs.png
+Content Type: image/png
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/67542dc6b791fd613484bce4_ремонт-приміщень.png
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\67542dc6b791fd613484bce4_ремонт-приміщень.png
+Content Type: image/png
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/67542fdfd392e6c3c8c26b58_Group 2087328059.png
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\67542fdfd392e6c3c8c26b58_Group 2087328059.png
+Content Type: image/png
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/67542fe0780edff4d58b9049_Group 2087328058.png
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\67542fe0780edff4d58b9049_Group 2087328058.png
+Content Type: image/png
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/67542fe09f5cd35e74ca551d_Group 2087328060.png
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\67542fe09f5cd35e74ca551d_Group 2087328060.png
+Content Type: image/png
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/675432da8710618b4a306674_number1-blue.svg
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\675432da8710618b4a306674_number1-blue.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/675432da8b15fdd1af2235fd_number1-white.svg
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\675432da8b15fdd1af2235fd_number1-white.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/675432dab791fd613488677d_number2-white.svg
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\675432dab791fd613488677d_number2-white.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/675432dad392e6c3c8c4a19a_clean360_short_color.svg
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\675432dad392e6c3c8c4a19a_clean360_short_color.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/675432daf93b975b38ed0687_number2-blue.svg
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\675432daf93b975b38ed0687_number2-blue.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/675433a48b15fdd1af22b060_logo-footer.svg
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\675433a48b15fdd1af22b060_logo-footer.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/675441bc01e9ceffa896ff30_favicon.png
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\675441bc01e9ceffa896ff30_favicon.png
+Content Type: image/png
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/css/clean360.webflow.a7833867b.css
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\css\clean360.webflow.a7833867b.css
+Content Type: text/css
+
+Uri: https://cdn.prod.website-files.com/674a2ea3a249d5093eb51b84/js/webflow.c9df27560.js
+File Name: D:\Projects\webflow\clean360.webflow.io\674a2ea3a249d5093eb51b84\js\webflow.c9df27560.js
+Content Type: text/javascript
+
+Uri: https://cdn.prod.website-files.com/img/webclip.png
+File Name: D:\Projects\webflow\clean360.webflow.io\img\webclip.png
+Content Type: image/png
+
+Uri: https://clean360.webflow.io/
+File Name: D:\Projects\webflow\clean360.webflow.io\index.htm
+Content Type: text/html
+
+Uri: https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=674a2ea3a249d5093eb51b84
+File Name: D:\Projects\webflow\clean360.webflow.io\js\jquery-3.5.1.min.dc5e7f18c8.js
+Content Type: application/javascript
+
