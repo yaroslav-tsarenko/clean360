@@ -296,6 +296,7 @@ pre.w-code-block code {
 
 .w-webflow-badge, .w-webflow-badge > img {
     box-sizing: unset;
+ display: none;
     width: unset;
     height: unset;
     max-height: unset;
@@ -347,6 +348,7 @@ pre.w-code-block code {
 .w-webflow-badge {
     white-space: nowrap;
     cursor: pointer;
+    display: none !important;
     box-shadow: 0 0 0 1px #0000001a, 0 1px 3px #0000001a;
     visibility: visible !important;
     opacity: 1 !important;
@@ -362,7 +364,6 @@ pre.w-code-block code {
     font-size: 12px !important;
     line-height: 14px !important;
     text-decoration: none !important;
-    display: inline-block !important;
     position: fixed !important;
     inset: auto 12px 12px auto !important;
     transform: none !important;
@@ -1189,6 +1190,10 @@ textarea.w-input, textarea.w-select {
     -webkit-tap-highlight-color: #0000;
     tap-highlight-color: #0000;
     background: #ddd;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 300px;
     position: relative;
 }
@@ -5227,9 +5232,8 @@ textarea.w-input, textarea.w-select {
     }
 
     .team-block {
-        margin-left: 10px;
-        margin-right: 10px;
-        height: 302px;
+        height: 300px;
+        margin: auto 10px auto 10px;
     }
 
     .team-slider-arrow {
