@@ -28,6 +28,18 @@ document.addEventListener('DOMContentLoaded', function () {
         input.value = value;
     });
 
+    phoneNumberInput.addEventListener('keydown', function (event) {
+        if (event.key === 'Backspace') {
+            const input = event.target;
+            const cursorPosition = input.selectionStart;
+            if (cursorPosition > 0 && input.value[cursorPosition - 1] === ' ') {
+                input.value = input.value.slice(0, cursorPosition - 1) + input.value.slice(cursorPosition);
+                input.setSelectionRange(cursorPosition - 1, cursorPosition - 1);
+                event.preventDefault();
+            }
+        }
+    });
+
     document.getElementById('wf-form-PhoneNumber-3').addEventListener('submit', function (event) {
         const phoneNumber = phoneNumberInput.value.trim();
         const uaPhoneNumberPattern = /^\+38 \d{3} \d{3} \d{2} \d{2}$/;
