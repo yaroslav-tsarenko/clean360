@@ -4,9 +4,6 @@
     font-family: sans-serif;
 }
 
-*{
-    outline: 2px solid black;
-}
 
 body {
     margin: 0;
@@ -1205,8 +1202,8 @@ textarea.w-input, textarea.w-select {
 .w-slider-mask {
     z-index: 1;
     white-space: nowrap;
-    height: 100%;
-    display: block;
+    height: fit-content;
+    display: inline-block;
     position: relative;
     left: 0;
     right: 0;
@@ -3491,7 +3488,7 @@ textarea.w-input, textarea.w-select {
 
 
     @media screen and (max-width: 479px) {
-        font-size: 18px;
+        font-size: 15px;
     }
 }
 
@@ -5235,8 +5232,7 @@ textarea.w-input, textarea.w-select {
     .team-slide-wrapper {
         vertical-align: baseline;
         width: 100%;
-        height: -moz-fit-content;
-        height: fit-content;
+        height: 325px;
         margin-right: 0%;
     }
 
