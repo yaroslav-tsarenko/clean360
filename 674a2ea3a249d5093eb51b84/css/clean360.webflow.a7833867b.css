@@ -296,7 +296,7 @@ pre.w-code-block code {
 
 .w-webflow-badge, .w-webflow-badge > img {
     box-sizing: unset;
- display: none;
+    display: none;
     width: unset;
     height: unset;
     max-height: unset;
@@ -1574,6 +1574,61 @@ textarea.w-input, textarea.w-select {
     -webkit-transform: translate3d(0, 0, 0);
 }
 
+.article-inner {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 25px;
+    background: #eeeeee;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 15px;
+}
+
+.article-title{
+    font-size: 65px;
+    color: #222222;
+}
+
+.article-item {
+    margin: 0;
+    color: #777777;
+    font-size: 14px;
+}
+
+.button-home-page{
+    display: flex;
+    padding: 15px 20px;
+    background: #222222;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 55px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: 20px auto;
+    max-width: 220px;
+    width: 100%;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.button-home-page:hover{
+    background: #333333;
+}
+
+@media screen and (max-width: 478px) {
+    .article-title {
+        font-size: 17px;
+    }
+}
+
 .w-lightbox-active {
     opacity: .3;
 }
@@ -2837,14 +2892,14 @@ textarea.w-input, textarea.w-select {
     background-size: auto 100%;
 }
 
-.servicebg-windows{
+.servicebg-windows {
     background-image: url("../window-cleaning.png");
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: auto 100%;
 }
 
-.servicebg-sofa{
+.servicebg-sofa {
     background-image: url("../sofa-cleaning.png");
     background-position: 50%;
     background-repeat: no-repeat;
@@ -3135,7 +3190,7 @@ textarea.w-input, textarea.w-select {
     font-size: 11px;
 }
 
-.w-webflow-badge{
+.w-webflow-badge {
     display: none;
 }
 
@@ -3382,7 +3437,7 @@ textarea.w-input, textarea.w-select {
     background-color: #fff;
     border-radius: 40px;
     flex-flow: column;
-    height: 100%;
+    height: 300px;
     padding: 35px;
     line-height: 20px;
     display: flex;
