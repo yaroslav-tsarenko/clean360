@@ -3892,6 +3892,11 @@ textarea.w-input, textarea.w-select {
     width: -moz-fit-content;
     width: fit-content;
     display: flex;
+
+    img{
+        width: 12px;
+        height: 12px;
+    }
 }
 
 .paragraph-24 {
