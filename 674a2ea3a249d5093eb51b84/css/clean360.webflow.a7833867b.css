@@ -1589,7 +1589,7 @@ textarea.w-input, textarea.w-select {
     gap: 15px;
 }
 
-.article-title{
+.article-title {
     font-size: 65px;
     color: #222222;
 }
@@ -1600,7 +1600,7 @@ textarea.w-input, textarea.w-select {
     font-size: 14px;
 }
 
-.button-home-page{
+.button-home-page {
     display: flex;
     padding: 15px 20px;
     background: #222222;
@@ -1619,7 +1619,7 @@ textarea.w-input, textarea.w-select {
     cursor: pointer;
 }
 
-.button-home-page:hover{
+.button-home-page:hover {
     background: #333333;
 }
 
@@ -3738,6 +3738,7 @@ textarea.w-input, textarea.w-select {
     align-items: center;
     width: auto;
     max-width: none;
+    overflow: auto;
     padding: 60px;
     display: flex;
     position: relative;
@@ -3748,7 +3749,6 @@ textarea.w-input, textarea.w-select {
     justify-content: center;
     align-items: flex-start;
     width: 100%;
-    padding-top: 70px;
     overflow: auto;
 }
 
@@ -3863,7 +3863,13 @@ textarea.w-input, textarea.w-select {
     color: #5c5c5c;
     font-size: 20px;
     font-weight: 700;
+    gap: 5px;
     text-decoration: underline;
+}
+
+.marginTop{
+    display: flex;
+    margin-top: 40px;
 }
 
 .text-span-22 {
@@ -3893,7 +3899,7 @@ textarea.w-input, textarea.w-select {
     width: fit-content;
     display: flex;
 
-    img{
+    img {
         width: 12px;
         height: 12px;
     }
@@ -3914,7 +3920,18 @@ textarea.w-input, textarea.w-select {
     grid-row-gap: 140px;
     justify-content: space-between;
     width: 100%;
+    height: fit-content;
+    overflow: scroll;
+    overflow-x: hidden;
     display: flex;
+}
+
+.paddingRight{
+    padding: 0 15% 0 0;
+}
+
+@media screen and (max-width: 1028px) {
+    padding: 0;
 }
 
 .div-block-6.detailedpopup {
@@ -5590,7 +5607,7 @@ textarea.w-input, textarea.w-select {
     .heading-21.big {
         margin-top: 0;
         margin-bottom: 0;
-        font-size: 35px;
+        font-size: 45px;
     }
 
     .div-block-4 {
