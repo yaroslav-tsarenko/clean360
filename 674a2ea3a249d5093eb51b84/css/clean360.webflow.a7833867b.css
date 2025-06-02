@@ -3852,6 +3852,15 @@ textarea.w-input, textarea.w-select {
     max-width: 450px;
 }
 
+.marginTopBackward {
+    display: flex;
+    margin-top: -130px;
+
+    @media screen and (max-width: 1024px) {
+        margin-top: 0;
+    }
+}
+
 .div-block-3 {
     grid-column-gap: 26px;
     grid-row-gap: 26px;
@@ -3867,7 +3876,7 @@ textarea.w-input, textarea.w-select {
     text-decoration: underline;
 }
 
-.marginTop{
+.marginTop {
     display: flex;
     margin-top: 40px;
 }
@@ -3926,7 +3935,7 @@ textarea.w-input, textarea.w-select {
     display: flex;
 }
 
-.paddingRight{
+.paddingRight {
     padding: 0 15% 0 0;
 }
 
