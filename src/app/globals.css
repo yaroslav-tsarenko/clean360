@@ -1,0 +1,216 @@
+@import "tailwindcss";
+
+/*
+ * Дизайн-токени Clean360°. Брейкпоінти повторюють оригінальний сайт:
+ *   max-sm  → ≤479px, max-md → ≤767px, max-lg → ≤991px, max-xl → ≤1028px
+ */
+@theme {
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1029px;
+
+  --font-sans: var(--font-inter), "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --color-brand: #0f788b;
+  --color-brand-hover: #0a9db8;
+  --color-brand-alt: #0f788d;
+  --color-accent: #3fc1d9;
+  --color-chip: #ceebf0;
+  --color-chip-alt: #d9e9ec;
+  --color-ink: #222222;
+  --color-ink-btn: #222324;
+  --color-dark: #343434;
+  --color-body: #333333;
+  --color-gray: #5c5c5c;
+  --color-muted: #777777;
+  --color-light: #eeeeee;
+  --color-off: #fdfdfd;
+  --color-arrow: #d9d9d9;
+
+  --shadow-brand: 0 2px 20px 1px #0f788b;
+  --shadow-brand-lg: 0 8px 32px 2px rgb(15 120 139 / 0.75);
+
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+
+  --animate-fade-up: fade-up 0.8s var(--ease-out-soft) both;
+  --animate-fade-in: fade-in 0.6s ease both;
+  --animate-float: float 7s ease-in-out infinite;
+
+  @keyframes fade-up {
+    from { opacity: 0; transform: translateY(24px); }
+    to { opacity: 1; transform: none; }
+  }
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-14px); }
+  }
+}
+
+/* Базові стилі (відтворюють дефолти оригіналу поверх Tailwind preflight) */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    @apply bg-light font-sans text-[14px] leading-5 text-body antialiased max-sm:bg-white;
+  }
+  h1, h2, h3, h4 {
+    @apply font-bold;
+  }
+  img, svg, video {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  a, button {
+    @apply cursor-pointer;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-brand);
+    outline-offset: 3px;
+  }
+  [id] {
+    scroll-margin-top: 16px;
+  }
+  ::selection {
+    background: var(--color-chip);
+    color: var(--color-ink);
+  }
+}
+
+@layer components {
+  /* Типографічна шкала: однакові підписи, заголовки секцій та абзаци по всьому сайту */
+  /* Єдиний контейнер і вертикальний ритм секцій */
+  .container-x {
+    @apply mx-auto w-full max-w-[1448px] px-10 max-lg:px-8 max-sm:px-5;
+  }
+  .section-y {
+    @apply py-24 max-lg:py-20 max-sm:py-14;
+  }
+  .eyebrow {
+    @apply text-[12px] leading-4 font-medium tracking-[0.32em] text-ink/70 uppercase;
+  }
+  .h-section {
+    @apply text-[56px] leading-[1.08] font-semibold tracking-[-0.025em] max-lg:text-[44px] max-sm:text-[32px] max-sm:leading-[1.12];
+  }
+  .text-lead {
+    @apply text-[15px] leading-[1.65] text-muted max-sm:text-[14px];
+  }
+
+  /* Головна кнопка «Замовити прибирання» */
+  .btn-primary {
+    @apply relative isolate flex w-full items-center justify-center overflow-hidden rounded-full bg-brand px-[55px] py-[30px] text-[16px] font-bold text-white shadow-brand transition-[background-color,box-shadow,transform,opacity] duration-300 ease-out-soft hover:-translate-y-0.5 hover:bg-brand-hover hover:shadow-brand-lg active:translate-y-0 active:scale-[0.98] max-sm:px-[35px] max-sm:py-5;
+  }
+  /* Відблиск, що пробігає по кнопці при наведенні */
+  .btn-primary::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: linear-gradient(110deg, transparent 30%, rgb(255 255 255 / 0.28) 50%, transparent 70%);
+    transform: translateX(-120%);
+    transition: transform 0.8s var(--ease-out-soft);
+  }
+  .btn-primary:hover::after {
+    transform: translateX(120%);
+  }
+  .btn-dark {
+    @apply bg-ink-btn hover:bg-ink-btn hover:opacity-[0.85] hover:ring-1 hover:ring-[#3f3a3a];
+  }
+}
+
+@layer utilities {
+  /* Поява блоків при скролі — чистий CSS (scroll-driven animations), без JS.
+     У браузерах без підтримки контент просто видно одразу. */
+  @supports (animation-timeline: view()) {
+    @media (prefers-reduced-motion: no-preference) {
+      .reveal {
+        animation: reveal-up linear both;
+        animation-timeline: view();
+        animation-range: entry 0% entry 55%;
+      }
+      .reveal-scale {
+        animation: reveal-scale linear both;
+        animation-timeline: view();
+        animation-range: entry 0% entry 60%;
+      }
+    }
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@keyframes reveal-up {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes reveal-scale {
+  from { opacity: 0; transform: translateY(30px) scale(0.96); }
+  to { opacity: 1; transform: none; }
+}
+
+/* Модальні вікна на нативному <dialog>: анімація відкриття/закриття */
+dialog.modal {
+  opacity: 0;
+  transition:
+    opacity 0.35s var(--ease-out-soft),
+    overlay 0.35s allow-discrete,
+    display 0.35s allow-discrete;
+}
+dialog.modal[open] {
+  opacity: 1;
+}
+@starting-style {
+  dialog.modal[open] {
+    opacity: 0;
+  }
+}
+dialog.modal .modal-card {
+  transform: translateY(24px) scale(0.97);
+  transition: transform 0.45s var(--ease-out-soft);
+}
+dialog.modal[open] .modal-card {
+  transform: none;
+}
+@starting-style {
+  dialog.modal[open] .modal-card {
+    transform: translateY(24px) scale(0.97);
+  }
+}
+dialog.modal::backdrop {
+  background: transparent;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Скролбар для горизонтального списку додаткових послуг (мобільна версія) */
+.scroll-x-thin::-webkit-scrollbar {
+  height: 4px;
+}
+.scroll-x-thin::-webkit-scrollbar-thumb {
+  background-color: var(--color-dark);
+  border-radius: 55px;
+}
+.scroll-x-thin::-webkit-scrollbar-track {
+  background-color: #e4e4e4;
+  border-radius: 55px;
+}
+
+/* Блокування скролу сторінки, поки відкрите модальне вікно чи мобільне меню */
+html:has(dialog[open]) {
+  overflow: hidden;
+}
